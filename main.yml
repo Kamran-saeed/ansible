@@ -3,7 +3,7 @@
 
   tasks:
     - sts_assume_role:
-        role_arn: "arn:aws:iam::515016729357:role/kamran-prod-role"
+        role_arn: "arn:aws:iam::{{ account_id }}:role/kamran-prod-role"
         role_session_name: "jenkins"
         region: us-east-1
       register: assumed_role
