@@ -5,7 +5,7 @@ Resources:
   SampleBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: 'sample-bucket-cross-account-1'
+      BucketName: 'sample-bucket-cross-account-2'
     DeletionPolicy: Delete
 
 Outputs:
