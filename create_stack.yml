@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: yes
+  strategy: free
+  serial: 10
+  roles:
+    - cfstack
