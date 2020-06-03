@@ -1,0 +1,2 @@
+[idshosts]
+ids_app_node_0   ansible_host="test-cf"     ids_host_type="app"
