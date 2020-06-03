@@ -1,2 +1,5 @@
 [idshosts]
 35.175.129.112
+
+[idshosts:vars]
+ansible_ssh_common_args="-o StrictHostKeyChecking=no"
