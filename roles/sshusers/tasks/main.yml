@@ -1,0 +1,7 @@
+---
+
+- name: "Copy the authorized key file from"
+  authorized_key:
+    user: kamran
+    state: present
+    key: ""

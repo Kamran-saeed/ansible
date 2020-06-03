@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  strategy: free
+  serial: 10
+  roles:
+    - sshusers
