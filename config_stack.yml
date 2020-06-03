@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: idshosts
   strategy: free
   serial: 10
   roles:
